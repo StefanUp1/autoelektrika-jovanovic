@@ -134,6 +134,10 @@ header {
         -webkit-filter: none !important; 
         filter: none !important;
     }
+    
+    .services {
+        background-attachment: scroll;
+    }
 }
 
 @media (min-width: 768px) {
