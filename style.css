@@ -250,7 +250,6 @@ header {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.2s ease-in;
-    cursor: pointer;
     margin-bottom: 50px
 }
 
