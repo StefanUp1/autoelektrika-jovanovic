@@ -6,6 +6,7 @@ body {
     color: #555;
     background-color: #eee;
     font-family: 'Istok Web', sans-serif;
+   
 }
 
 .content-body {
@@ -57,6 +58,8 @@ header {
     color: #555;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
 
@@ -94,6 +97,8 @@ header {
 }
 
 .navbar-light .navbar-nav a {
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
 
@@ -114,7 +119,7 @@ header {
 }
 
 #altBg {
-    background-image: url(img/slide3.jpeg);
+    background-image: url(img/slide1.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,12 +167,6 @@ header {
     position: relative;
 }
 
-@media (max-width: 768px) {
-    .services {
-        background-attachment: scroll !important;
-    }
-}
-
 .services h1 {
     position: relative;
     z-index: 2;
@@ -197,6 +196,8 @@ header {
     font-size: 100px;
     text-align: center;
     color: rgba(255, 255, 255, 0.18);
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
 
@@ -229,6 +230,8 @@ header {
     margin-top: 25px;
     font-size: 14px;
     letter-spacing: 2px;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
 
@@ -249,7 +252,10 @@ header {
     filter: grayscale(100%);
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    cursor: pointer;
     margin-bottom: 50px
 }
 
@@ -299,6 +305,8 @@ header {
     cursor: pointer;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
 
